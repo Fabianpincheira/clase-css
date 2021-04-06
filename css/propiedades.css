@@ -1,0 +1,49 @@
+#propiedades {
+    display: block;
+    width: 500px;
+    margin: 50px auto;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #999999;
+    background-color: #dddddd;
+
+    -webkit-border-radius: 20px 10px 30px 50px;
+    border-radius: 20px;
+
+    box-shadow: rgb(150, 150, 150) 5px 5px 10px inset; /*sombra */
+    background: rgb(0, 0, 0, .5);
+
+    /*-moz-transform: scale(1, -1);
+    -webkit-transform: scale(1, -1);*/
+
+    /*-moz-transform: skewX(10deg);
+    -moz-transform: skewY(20deg); 
+
+    -webkit-transform: skew(20deg);*/
+
+    /*-moz-transform: translate(100px);
+    -webkit-transform: translate(100px);*/
+
+    /*-moz-transform: translate(100px);
+    -moz-transform: translate(200px);
+    -webkit-transform: translate(100px);
+    -webkit-transform: translate(200px);*/
+
+    /*-moz-transform: translateY(100px) rotate(0) scaleX(0.9);
+    -webkit-transform: translateY(100px) rotate(0) scaleX(0.9);*/
+
+    -moz-transition: -moz-transform: 1s ease-in-out 0.5s;
+    -webkit-transition: -webkit-transform: 1s ease-in-out 0.5s;
+   
+  }
+
+  #propiedades:hover {
+      -moz-transform: rotate(5deg);
+      -webkit-transform: rotate(5deg);
+  }
+    
+#propTitulo{
+    font: bold 36px verdana, sans-serif;
+    text-shadow: rgb(195, 91, 16) 3px 3px 5px; 
+    /*font-family: 'Train One', cursive ;*/
+}
